@@ -1,0 +1,16 @@
+{
+	"name": "Haphazardly",
+	"short_name": "Haphazardly",
+	"start_url": "index.html",
+	"display": "standalone",
+	"background_color": "#000",
+	"theme_color": "#db4938",
+	"orientation": "portrait-primary",
+	"icons": [
+		{
+			"src": "/images/icons/icon-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}
