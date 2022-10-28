@@ -65,6 +65,7 @@ button:focus {
 footer {
 	color: #00005381;
 	font-size: 0.8em;
+	margin-bottom: 0;
 }
 a {
 	text-decoration: none;
