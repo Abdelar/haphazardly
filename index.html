@@ -13,27 +13,29 @@
 		<main>
 			<h1>Haphazardly</h1>
 			<p>Generate a <b>random</b> number between</p>
-			<input
-				type="number"
-				name="min"
-				min="0"
-				value="1"
-				id="min"
-				placeholder="min"
-				step="1"
-				oninput="validity.valid||(value='')" />
-			and
-			<input
-				type="number"
-				name="max"
-				id="max"
-				min="0"
-				step="1"
-				placeholder="max"
-				value="10"
-				oninput="validity.valid||(value='')" />
-			<br />
-			<button id="generate">Generate</button>
+			<form>
+				<input
+					type="number"
+					name="min"
+					min="0"
+					value="1"
+					id="min"
+					placeholder="min"
+					step="1"
+					oninput="validity.valid||(value='')" />
+				and
+				<input
+					type="number"
+					name="max"
+					id="max"
+					min="0"
+					step="1"
+					placeholder="max"
+					value="10"
+					oninput="validity.valid||(value='')" />
+				<br />
+				<button id="generate" type="submit">Generate</button>
+			</form>
 			<p id="answer">#</p>
 			<footer>
 				<a

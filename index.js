@@ -4,8 +4,9 @@ button.addEventListener('click', generateRandomNumber);
 
 generateRandomNumber();
 
-async function generateRandomNumber() {
+async function generateRandomNumber(event) {
 	try {
+		event.preventDefault();
 		const p = document.getElementById('answer');
 		p.style.opacity = 0.5;
 		const min = +document.getElementById('min').value;
